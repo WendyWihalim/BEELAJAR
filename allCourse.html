@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/address-bar-icon.png">
+        <title>BeeLajar - All Courses</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="home.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <div class="ser">
+                        <input type="text-no-login" name="Search" class="" placeholder="Search" >
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="teach.html">Teach at BeeLajar</a></li>
+                            <li><a href="allCourse.html">Course</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="signup.html">Sign Up</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                </div>
+            </div>
+        </div>
+        <!--body-->
+        <div class="main-allCourse">
+            <h1 class="type-allCourse">All Courses</h1>
+            <div class="items-allCourse">
+                <div class="item-allCourse">
+                    <div class="image-item-allCourse" style="background-image: url(images/product-1.jpg)";></div>
+                    <div class="text-allCourse">
+                        <div class="image-link-allCourse">
+                            <a href="login.html" onclick="alert('You have to login to buy / access the course')"><img src="images/ai.png"></a>
+                        </div>
+                        <div class="image-sub-allCourse">
+                            <h4>Introduction to AI: Future Machine</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-allCourse">
+                    <div class="image-item-allCourse" style="background-image: url(images/product-2.jpg)"></div>
+                    <div class="text-allCourse">
+                        <div class="image-link-allCourse">
+                            <a href="login.html" onclick="alert('You have to login to buy / access the course')"><img src="images/python.png"></a>
+                        </div>
+                        <div class="image-sub-allCourse">
+                            <h4>Phyton for Data Science and Machine Learning</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-allCourse">
+                    <div class="image-item-allCourse" style="background-image: url(images/product-3.jpg)"></div>
+                    <div class="text-allCourse">
+                        <div class="image-link-allCourse">
+                            <a href="login.html" onclick="alert('You have to login to buy / access the course')"><img src="images/paint.png"></a>
+                        </div>
+                        <div class="image-sub-allCourse">
+                            <h4>Introduction to Art: Abstract Vector</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-allCourse">
+                    <div class="image-item-allCourse" style="background-image: url(images/product-4.jpg)"></div>
+                    <div class="text-allCourse">
+                        <div class="image-link-allCourse">
+                            <a href="login.html" onclick="alert('You have to login to buy / access the course')"><img src="images/html-css-js.png"></a>
+                        </div>
+                        <div class="image-sub-allCourse">
+                            <h4>Advance Website Design with HTML JS CSS</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="horizontal-center">
+            <hr>
+            MAKE THE WORLD BETTER
+            <a href="teach.html">
+                <div class="btn">Teach at BeeLajar Now</div></a>
+            <hr>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS mobile phone</p>
+                        <div class="app-logo">
+                            <a href="https://play.google.com/store"><img src="images/play-store.png" alt=""></a>
+                            <a href="https://www.apple.com/id/app-store/"><img src="images/app-store.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo.png" alt="">
+                        <p>Our Purpose is to Educate Everyone and to Make The World a Better Place.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>    
+                            <li>Privacy Policy</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - BeeLajar | David Eko Putra, Vincent Low, Wendy Wihalim, Jiswa</p>
+            </div>
+        </div>
+    </body>
+    <script>
+        const scItems = document.querySelectorAll('.item-allCourse')
+        scItems.forEach(scItem => {
+            scItem.addEventListener('mouseover', () => {
+                scItem.childNodes[1].classList.remove('img-brighten-allCourse');
+                scItem.childNodes[1].classList.add('img-darken-allCourse');
+            })
+            scItem.addEventListener('mouseout', () => {
+                scItem.childNodes[1].classList.remove('img-darken-allCourse');
+                scItem.childNodes[1].classList.add('img-brighten-allCourse');
+            })
+        })
+        function logOut(){
+            document.getElementById("log-out").click();
+        }   
+    </script>
+</html>

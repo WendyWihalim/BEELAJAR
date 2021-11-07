@@ -1,0 +1,876 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    padding: 20px;
+}
+.navbar ul img{
+    margin-right: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+input[type = text-no-login]{
+    width: 500px;
+    border-radius: 3px;
+    border: 1.5px solid;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 30px;
+    background-color: white;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #000;
+}
+input[type = text-login]{
+    width: 600px;
+    border-radius: 3px;
+    border: 1.5px solid;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 30px;
+    background-color: white;
+    padding: 0px 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    color: #000;
+}
+.ser{
+    outline: none;
+    height: 28px;
+    width: auto;
+    border-radius: 40px;
+    border: 0;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 70%;
+    padding: 50px;
+}
+.col-2 h1{
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    transition: transform 0.2s;
+}
+.btn:hover{
+    background: #563434;
+    transform: scale(1.1);
+}
+.header{
+    background: radial-gradient(#EEDECB ,#F19D39 ); 
+}
+.title{
+    text-align: center;
+    margin: 0px auto 60px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: '';
+    background: #ff523b;
+    width: 150px;
+    height: 1.5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+.vertical {
+    border-left: 2px solid black;
+    height: 20px;
+}
+/*--------------- HOME : best seller courses ---------------*/
+.product{
+    margin: 70px 0;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+}
+.allBtn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    margin: auto;
+    margin-left: 1%;
+    margin-bottom: 20px;
+    padding: 8px 50px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    transition: transform 0.2s
+}
+.allBtn:hover{
+    background: #563434;
+    transform: scale(1.1)
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4:hover{
+    transform: translateY(-15px)
+}
+.rating .fa{
+    color: #FFD700;
+}
+h6{
+    font-weight: normal;
+}
+.teach-col-2 img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+/*--------------- HOME, TEACH: image ---------------*/
+.slide{
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/*--------------- TEACH: make the world better by teaching ---------------*/
+.teaching{
+    margin: 70px 0;
+}
+.teach-col-4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+}
+.teach-col-4 h4{
+    text-align: center;
+}
+.teach-col-4 h6{
+    width: 200px;
+    text-align: center;
+    font-weight: normal;
+}
+/*--------------- TEACH: become an instructor ---------------*/
+.teachNow p{
+    text-align: center;
+    font-size: 75%;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+.teachBtn{
+    width: 24%;
+    margin-left: 38%;
+    text-align: center;
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+    transition: transform 0.2s;
+}
+.teachBtn:hover{
+    background: #563434;
+    transform: scale(1.1);
+}
+/*--------------- CART: buy now ---------------*/
+.buy-small-container{
+    max-width: 1080px;
+    margin: auto;
+}
+.buyList{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    align-items: center;
+    margin-top: 20px;
+}
+.buy-col{
+    width: 400px;
+    margin-bottom: -40px;
+}
+.buy-col img{
+    width: 100%;
+}
+.total-col{
+    color: #ff523b;
+    font-size: 50px;
+    margin-left: 20%;
+}
+.minPlus{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    margin:  10px 10px 60px 10px;
+    border: #fff;
+    font-weight: bolder;F
+    font-size: 20px;
+}
+.minPlus:hover{
+    background: #563434;
+    border-color: #ff523b;
+}
+.cancelBtn{
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 20px;
+    margin:  10px 0 60px auto;
+    font-weight: bold;
+    border: 2px #fff;
+}
+.cancelBtn:hover{
+    background: #563434;
+}
+.totalBuy{
+    color: #ff523b;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.checkAllBtn{
+    width: 300px;
+    background: #ff523b;
+    color: #fff;
+    padding: 16px 20px 16px 20px;
+    margin: 0 auto 100px 0;
+    font-weight: bold;
+    border: 1px #ff523b;
+}
+.checkAllBtn:hover{
+    background: #563434;
+}
+.cancelAllBtn{
+    width: 300px;
+    background: #fff;
+    color: #000;
+    padding: 14px 20px 14px 20px;
+    margin: 0 auto 100px 0;
+    border: 2px solid black;
+    font-weight: bold;
+}
+.cancelAllBtn:hover{
+    border-color: #563434;
+    background: #563434;
+    color: #fff;
+}
+.nothingInCart{
+    margin: 100px 0 100px 0;
+}
+/*------------------------------sign up------------------------------- */
+.title-container{
+    margin-top: 20px;
+}
+.loginOrSignUpform{
+    position: relative;
+    z-index:  8;
+    max-width: 360px;
+    margin: 0 auto 10px;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.loginOrSignUpform input{
+    font-family: 'Poppins', sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 13px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.loginOrSignUpform button{
+    font-family: san;
+    text-transform: uppercase;
+    outline: 0;
+    background: #ff523b;
+    border-radius: 50px;
+    padding: 4px;
+    width: 28%;
+    margin: 10px;
+}
+.loginOrSignUpform button:hover,.form button:active{
+    background: #ff523b;
+}
+.loginOrSignUpform .message{
+    margin: 15px 0 0;
+    color : black;
+    font-size: 16px;
+}
+.loginOrSignUpform .msg{
+    margin: 15px 0 0;
+    color : black;
+    font-size: 16px;
+}
+.loginOrSignUpform .message a{
+    color:blue;
+    text-decoration: none;
+}
+.loginOrSignUpform .msg a{
+    color:blue;
+    text-decoration: none;
+}
+/* --------------- LOGIN --------------- */
+.googleBtn{
+    background: #ffffff;
+    color: black;
+    padding: 10px 0px;
+    text-align: left;
+    margin: 10px 0;
+    border-radius: 3px;
+    border: 1px solid gray;
+    transition: background 0.5s;
+}
+.facebookBtn{
+    background: #3b5998;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: left;
+    margin: 10px 0;
+    border-radius: 3px;
+    transition: background 0.5s;
+}
+.login-form .fa{
+    padding: 0 10px;
+}
+/*--------------- make the world better ---------------*/
+.horizontal-center{
+    text-align: center;
+}
+/*--------------- ALLCOURSE ----------------*/
+.type-allCourse{
+    margin: 0px auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    text-transform: uppercase;
+}
+.type-allCourse::after{
+    content: '';
+    background: #ff523b;
+    width: 222px;
+    height: 1.5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 8.5%;
+    transform: translateX(-50%)
+}
+.main-allCourse{
+    margin: auto;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+.items-allCourse{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.item-allCourse{
+    position: relative;
+}
+.image-item-allCourse{
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-style: ridge;
+}
+.text-allCourse{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 20px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 210px;
+}
+.image-link-allCourse img{
+    width: 100%;
+    border-style: 1px solid transparent;
+}
+.image-link-allCourse:hover{
+    border: 1px solid lightseagreen;
+}
+.text-allCourse .image-sub-allCourse{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+.text-allCourse:hover .image-sub-allCourse{
+    font-weight: 600;
+    color: lightseagreen;
+}
+.img-darken-allCourse{
+    transition: 1s;
+    filter: brightness(10%);
+}
+.img-brighten-allCourse{
+    transition: 1s;
+    filter: brightness(100%);
+}
+.main-lessonAccess{
+    margin: 20px;
+}
+.type-lessonAccess{
+    margin: 0px auto 30px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    text-transform: uppercase;
+}
+.type-lessonAccess::after{
+    content: '';
+    background: #ff523b;
+    width: 635px;
+    height: 1.5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 24.2%;
+    transform: translateX(-50%)
+}
+.main-lessonAccess h1{
+    color: #555;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.videos-lessonAccess{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+.video-lessonAccess{
+    flex-basis: 50%;
+    min-width: 250px;
+}
+.feature-img-lessonAccess{
+    width: 83%;
+    margin: auto;
+    position: relative;
+}
+.small-feature-img-lessonAccess{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    width: 85%;
+}
+.small-img-lessonAccess{
+    position: relative;
+}
+.small-img-lessonAccess img{
+    width: 150px;
+}
+.small-feature-img-lessonAccess p{
+    margin-left: 20px;
+    color: #707070;
+    line-height: 22px;
+    font-size: 15px;
+}
+.play-btn-lessonAccess{
+    width: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.small-img-lessonAccess .play-btn-lessonAccess{
+    width: 35px;
+}
+.video-player-lessonAccess{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+video:focus-lessonAccess{
+    outline: none;
+}
+.close-btn-lessonAccess{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    cursor: pointer;
+}
+.information-lessonAccess{
+    display: flex;
+    border-left: #000;
+    margin: 50px 0;
+    border-style: solid;
+}
+.information-lessonAccess h1{
+    font-size: 25pt;
+}
+
+.information-lessonAccess h4{
+    font-size: 10pt;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.about-lessonAccess{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.description-lessonAccess{
+    margin-left: 50px;
+    margin-right: 20px;
+}
+.description-lessonAccess h4{
+    margin-top: 10px;
+    color: #000;
+    font-size: 10pt;
+    font-weight: lighter;
+}
+/*--------------- COURSE: Overview -------------*/
+.course-product{
+    padding-left: 25px;
+    padding-right: 25px;
+    background : #1e1e1e;
+}
+.course-small-container{
+    margin: auto;
+    width: 1200px;
+    padding: 20px 0;
+}
+.course-title{
+    position: relative;
+    color: #ec8134;
+}
+.course-row{
+    display: flex;
+    padding-top: 20px;
+}
+.course-row img{
+    width: 480px;
+    height: 270px;
+    margin-right: 20px;
+}
+.course-title{
+    position: relative;
+    color: #555;
+}
+.course-col-4{
+    color: #dddddd;
+}
+.course-col-4 h4{
+    font-weight: lighter;
+}
+.course-col-4 h5{
+    font-weight: lighter;
+}
+.addBtn{
+    background: #c03030;
+    color: #dddddd;
+    padding: 8px 20px;
+    margin:  10px 0 10px auto;
+    font-weight: bold;
+    border: 2px #ddd;
+    width: 150px;
+}
+.addBtn:hover{
+    background: #563434;
+}
+.buyBtn{
+    background: #ddd;
+    color: #3d3d3d;
+    padding: 8px 20px;
+    font-weight: bold;
+    border: 2px #ddd;
+    width: 150px;
+}
+.buyBtn:hover{
+    background: #3d3d3d;
+    color: #ddd;
+}
+/*--------------- COURSE: Description -------------*/
+.C1_Desc{
+    margin: auto;
+    width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.C1_Desc1{
+    display:flex;
+    margin: 20px;
+}
+.C1_LO{
+    background: #f3f3f3;
+    border: 1.5px solid;
+    width: 830px;
+    border-radius: 6px;
+    margin-bottom: auto;
+    margin-right: -20px;
+}
+.C1_LO h1{
+    margin: 5px 0 10px 20px;
+}
+.C1_LOF{
+    display: flex;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+.lookMore{
+    flex-basis: 25%;
+    min-width: 350px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.lookMore img{
+    width: 40%;
+    float: left;
+}
+.lookMore .rating{
+    font-size: 12px;
+}
+.lookMore h6{
+    color: #a5a3a3;
+}
+.Requirements {
+    margin: 0 auto 50px;
+}
+.Description{
+    width: 830px;
+    margin: 0 0 50px 0;
+}
+.Requirements ul{
+    margin-left : 20px;
+}
+.btnShow{
+    display: inline-block;
+    background: #dc4b38;
+    color: #fff;
+    padding: 20px 130px;
+    transition: background 0.5s;
+}
+.btnShow:hover{
+    background: #563434;
+}
+/*--------------- PROFILE ------------*/
+.profile{
+    border : 1px solid black; 
+    margin: 20px auto;
+    width: 1300px;
+    padding-bottom: 30px;
+}
+.profile_row{
+    display: flex;
+}
+.profile_col-4{
+    margin: 0 50px;
+    border: 1px solid transparent;
+    width: 300px;
+    text-align: center;
+}
+.profile_col-4 img{
+    width : 200px;
+    padding: auto;
+    margin: 10px auto;
+}
+.title{
+    text-align: center;
+    position: relative;
+    color: #555;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.profile_col-4 button{
+    font-size: 20px;
+    margin: auto;
+    width: 120px;
+    margin-bottom: 10px;
+}
+.identity-container{
+    margin-right: 20px;
+}
+.identity{
+    display: flex;
+    width: 130px;
+    padding: 10px 0 10px 10px;
+    margin: 20px;
+    border: 1px solid transparent;
+}
+.identity-value-container{
+    border: 1px #000;
+}
+.identity-value{
+    width: 600px;
+    padding: 10px 0 10px 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    align-items: center;
+}
+.changeBtn{
+    float: right;
+    margin-right: 20px;
+    padding: 2px;
+    border-color: black;
+    border-radius: 4px;
+}
+.Profile_F{
+    margin-top: 20px;
+    display: flex;
+    font-size: 20px;
+}
+.p_LOB button{
+    font-size: 20px;
+}
+.myCourse-container{
+    text-align: center;
+    width: 1300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: auto;
+}
+/*--------------- footer -------------*/
+.footer{
+    background: #fff;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #000;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+} 
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 170px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

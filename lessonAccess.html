@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/address-bar-icon.png">
+        <title>BeeLajar - Lesson</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="home-login.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <div class="ser">
+                        <input type="text-login"name="Search" class="" placeholder="Search" >
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="about-login.html">About</a></li>
+                            <li><a href="allCourse-login.html">Course</a></li>
+                        </ul>
+                    </nav>
+                    <ul>
+                        <a href="profile.html"><img src="images/profile.png" style="height: 30px;"></a>
+                        <a href="cart-login.html"><img src="images/cart.png" width="28px" height="28px"></a>
+                        <a href="login.html" onmousedown="audio.play()" onclick="alert('You have logged out')"><img src="images/logout.png" height="32px;"></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--body-->
+        <div class="main-lessonAccess">
+            <h1 class="type-lessonAccess">Introduction to AI: Future Machine</h1>
+            <div class="videos-lessonAccess">
+                <div class="video-lessonAccess">
+                    <div class="feature-img-lessonAccess">
+                        <img src="images/product-1.jpg" width="100%">
+                        <img src="images/play.png" class="play-btn-lessonAccess" onclick="playVideo('videos/1.product1-introduction.mp4')">
+                    </div>
+                </div>
+                <div class="video-lessonAccess">
+                    <div class="small-feature-img-lessonAccess">
+                        <div class="small-img-lessonAccess">
+                            <img src="images/product-1.jpg">
+                            <img src="images/play.png" class="play-btn-lessonAccess" onclick="playVideo('videos/2.product1-artficialIntelligence.mp4')">
+                        </div>
+                        <p>What is Artificial Intelligence</p>
+                    </div>
+                    <div class="small-feature-img-lessonAccess">
+                        <div class="small-img-lessonAccess">
+                            <img src="images/product-1.jpg">
+                            <img src="images/play.png" class="play-btn-lessonAccess" onclick="playVideo('videos/3.product1-science.mp4')">
+                        </div>
+                        <p>What is Data Science and Machine Learning</p>
+                    </div>
+                    <div class="small-feature-img-lessonAccess">
+                        <div class="small-img-lessonAccess">
+                            <img src="images/product-1.jpg">
+                            <img src="images/play.png" class="play-btn-lessonAccess" onclick="playVideo('videos/4.product1-deep.mp4')">
+                        </div>
+                        <p>What is Deep Learning</p>
+                    </div>
+                </div>
+            </div>
+            <div class="information-lessonAccess">
+                <div class="about-lessonAccess">
+                    <h1>About</h1>
+                    <h4>Introduction to AI, How AI Change the World</h4>
+                </div>
+                <div class="Certificate-lessonAccess">
+                    <h1>Certificate</h1>
+                    <h4>Get your certificate after complete the course</h4>
+                </div>
+                <div class="description-lessonAccess">
+                    <h1>Description</h1>
+                    <h3>Lets learn basics to transform your career.</h3>
+                    <h3>"I promise not to exhaust you with huge number of videos."</h3>
+                    <h4>Welcome to the most comprehensive Introduction to AI, Machine Learning and Data Science course! An excellent choice for beginners and professionals looking to expand their knowledge on Artificial Intelligence, Machine Learning, Data Science, Deep Learning, Supervised and Unsupervised Learning.</h4>
+                </div>
+            </div>
+            <div class="video-player-lessonAccess" id="videoPlayer">
+                <video width="100%" controls autoplay id="theVideo">
+                    <source src="videos/product1-introduction.mp4" type="video/mp4">
+                </video>
+                <img src="images/close.png" class="close-btn-lessonAccess" onclick="stopVideo()">
+            </div>
+            <div class="horizontal-center">
+                <hr>
+                MAKE THE WORLD BETTER
+                <a href="teach-login.html">
+                    <div class="btn">Teach at BeeLajar Now</div></a>
+                <hr>
+            </div>
+            <!--footer-->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App for Android and IOS mobile phone</p>
+                            <div class="app-logo">
+                                <a href="https://play.google.com/store"><img src="images/play-store.png" alt=""></a>
+                                <a href="https://www.apple.com/id/app-store/"><img src="images/app-store.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="images/logo.png" alt="">
+                            <p>Our Purpose is to Educate Everyone and to Make The World a Better Place.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Privacy Policy</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow Us</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                                <li>Youtube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2020 - BeeLajar | David Eko Putra, Vincent Low, Wendy Wihalim, Jiswa</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        var videoPlayer = document.getElementById("videoPlayer");
+        var theVideo = document.getElementById("theVideo");
+
+        function stopVideo(){
+            videoPlayer.style.display = "none";
+            theVideo.muted = true;
+        }
+
+        function playVideo(file){
+            theVideo.src = file;
+            videoPlayer.style.display = "block";
+            theVideo.muted = false;
+        }
+
+        function logOut(){
+            document.getElementById("log-out").click();
+        }    
+    </script>
+</html>

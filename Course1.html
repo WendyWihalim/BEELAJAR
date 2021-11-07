@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images/address-bar-icon.png">
+        <title>BeeLajar - Phyton for Data Science and Machine Learning</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="script.js"></script>
+    </head>  
+    <body>
+        <div class = "header">
+            <div class = "container">
+                <div class = "navbar">
+                    <div class = "logo">
+                        <a href="home-login.html"><img src="images/logo.png" width="125px"></a>
+                    </div>
+                    <div class="ser">
+                        <input type="text-login" name="Search" class="" placeholder="Search" >
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="about-login.html">About</a></li>
+                            <li><a href="allCourse-login.html">Course</a></li>
+                        </ul>
+                    </nav>
+                    <ul>
+                        <a href="profile.html"><img src="images/profile.png" style="height: 30px;"></a>
+                        <a href="cart-login.html"><img src="images/cart.png" width="28px" height="28px"></a>
+                        <a href="login.html" onmousedown="audio.play()" onclick="alert('You have logged out')"><img src="images/logout.png" height="32px;"></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--------------- COURSE overview ------------->
+        <div class="course-product">
+            <div class="course-small-container">
+                <h2 class="course-title" style="color: #EC8134;">Course > Programming > Phyton </h2>
+                <div class="course-row">
+                    <img src="images/product-2.jpg">
+                    <div class = "course-col-4">
+                        <h1>Phyton for Data Science and Machine Learning</h1>
+                        <h4>(528.534 students)</h4>
+                        <div class="rating">
+                            <n>5.0 </n>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h6>Created by David Eko</h6>
+                        <h6>Language: ENG/IND</h6>
+                        <button class="addBtn" onclick="alert('Item added to cart')">Add to Cart</button>
+                        <form action="cart-login.html">
+                            <input type="submit" value="Buy Now" class="buyBtn">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------- Description item ------------->
+        <div class="C1_Desc">
+            <div class="C1_Desc1">
+                <div class = "C1_LO">
+                    <h1>Learning Object</h1>
+                    <div class = "C1_LOF">
+                        <ul style="list-style-type: circle;">
+                            <li>History of Phyton</li>
+                            <li>Know what are the characteristics of Phyton </li>
+                            <li>Discover 4 Paradigms of Phyton: imperative, functional procedural, and object-oriented.</li>
+                        </ul>
+                        <ul style="list-style-type: circle;">
+                            <li>Learn about 4 types of  Phyton</li>
+                            <li>Discover the Advantage of Phyton </li>
+                            <li>Know how to use Phyton for Data Science and Machine Learning</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lookMore">
+                    <h3> Look For Other Course</h3>
+                    <br>
+                    <a href="Course.html"><img src="images/product-1.jpg">
+                        <h5>Introduction to AI: Future Machine</h5>
+                        <div class="rating">
+                            <n>5.0</n>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <h6>(552.783 students)</h6>
+                    </a>
+                    <br>
+                    <a href="Course2.html">
+                        <img src="images/product-3.jpg">
+                        <h5>Introduction To Art: Abstract Vector</h5>
+                        <div class="rating">
+                            <n>4.6</n>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                        <h6>(457.827 students)</h6>
+                    </a>
+                    <br>
+                    <a href="Course3.html">
+                        <img src="images/product-4.jpg">
+                        <h5>Advance Website Design with HTML JS CSS</h5>
+                        <div class="rating">
+                            <n>4.6</n>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        </div>
+                        <h6>(438.823 students)</h6>
+                    </a>
+                    <br>
+                    <a href="allCourse.html" class="btnShow">Show More</a>
+                </div>
+            </div>
+
+            <div class="Requirements">
+                <h1 style="font-weight: bold;"> Requirements</h1>
+                <ul style="list-style-type: circle;">
+                    <li>Basic Math Knowledge</li>
+                    <li>Familiar With Computer Science</li>
+                    <li>Willingness to learn</li>
+                </ul>
+            </div>
+            <div class="Description">
+                <h1 style="font-weight: bold;"> Description</h1>
+                Hi and welcome to the introduction to Phyton course. In this course we will talk about the past, present and the future of Phyton. 
+                This course covers all the introductory topics to Phyton to get you started on the path of becoming Phyton specialist. You will learn about main 
+                philosophy, history and approaches of Phyton as well as its applications.
+            </div>
+        </div>
+        <div class="horizontal-center">
+            <hr>
+            MAKE THE WORLD BETTER
+            <a href="teach-login.html">
+                <div class="btn">Teach at BeeLajar Now</div></a>
+            <hr>
+        </div>
+        <!--------------- website footers ------------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and IOS mobile phone</p>
+                        <div class="app-logo">
+                            <a href="https://play.google.com/store">
+                                <img src="images/play-store.png" alt=""></a>
+                            <a href="https://www.apple.com/id/app-store/">
+                                <img src="images/app-store.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logo.png" alt="">
+                        <p>Our Purpose is to Educate Everyone and to Make The World a Better Place.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Privacy Policy</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2020 - BeeLajar | David Eko Putra, Vincent Low, Wendy Wihalim, Jiswa</p>
+            </div>
+        </div>
+    </body>
+</html>

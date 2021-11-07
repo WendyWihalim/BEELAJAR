@@ -1,0 +1,48 @@
+Font: https://fonts.google.com/specimen/Poppins
+address-bar-icon: https://www.freelogodesign.org
+logo: https://www.freelogodesign.org
+cart: https://www.pinclipart.com/pindetail/ih1obxhm_png-file-svg-shopping-cart-icon-png-clipart/
+App store and play store: https://www.pngegg.com/en/png-iczcn
+
+
+HOME PAGE
+=========
+homePageImg: https://toppng.com/photo/73452/stack-of-books-transparent
+product-1: https://urbandigital.id/menelisik-perkembangan-dan-dampak-dari-artificial-intelligence/
+product-2: https://morioh.com/p/bf36fcc227d2
+product-3: https://www.freepik.com/free-photos-vectors/art
+product-4: https://mytechdecisions.com/network-security/keys-better-web-design/
+stars: https://www.bootstrapcdn.com/fontawesome/, https://fontawesome.com/v4.7.0/icons/
+homeSlide-1: https://www.campaignmonitor.com/assets/uploads/2010/12/background_d.jpg
+
+TEACH PAGE
+==========
+teachSlide-1: https://kostaabras.mk/wp-content/uploads/2018/02/bg3.jpg
+teachSlide-2: https://www.responsivejqueryslider.com/thumbnails_banner_fullwidth.html
+formIcon: https://canva.com
+teachIcon: https://canva.com
+incomeIcon: https://canva.com
+
+CART PAGE
+=========
+product-1: https://urbandigital.id/menelisik-perkembangan-dan-dampak-dari-artificial-intelligence/
+product-2: https://morioh.com/p/bf36fcc227d2
+product-3: https://www.freepik.com/free-photos-vectors/art
+product-4: https://mytechdecisions.com/network-security/keys-better-web-design/
+
+LESSON ACCESS PAGE
+==================
+video-product1: https://www.udemy.com/course/introduction-to-ai-machine-learning-and-data-science/
+
+LOGIN PAGE
+==========
+bell.mp3(renamed): https://www.storyblocks.com/audio/stock/service-bell-ding-single-hlkfawthlvsk0wxwg7b.html
+
+ALL COURSES PAGE
+================
+ai: https://www.vectorstock.com/royalty-free-vector/isolated-brain-network-icon-vector-21672996
+python: https://www.cleanpng.com/png-python-programming-language-computer-programming-1854374/
+html-cs-jss: https://www.pngwing.com/en/free-png-klsaq
+paint: canva.com
+play & close: https://drive.google.com/file/d/1ISfiHSeUyAB2sBUiRaQew_sA508ndsk2/view
+
